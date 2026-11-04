@@ -19,7 +19,7 @@ main{max-width:1180px;margin:24px auto 56px;padding:0 22px}.section{background:w
 .overview-top .core-values p{font-size:.78rem;line-height:1.3;margin-bottom:8px}
 .overview-top .values-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
 .overview-top .value-tile{padding:7px 5px;border-radius:7px;font-size:.76rem;box-shadow:none}
-@media(max-width:760px){.overview-top{grid-template-columns:1fr 1fr;gap:9px}.overview-top .core-values{padding:9px}.overview-top .values-grid{gap:5px}.overview-top .value-tile{font-size:.7rem;padding:7px 3px}}
+.team-roles{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:7px 12px;margin-top:12px;padding-top:10px;border-top:1px solid var(--line)}.team-roles div{display:flex;flex-direction:column;gap:1px}.team-roles span{font-size:.86rem;color:var(--ink);font-weight:700}.team-roles b{font-size:.76rem;color:var(--gold);text-transform:uppercase;letter-spacing:.04em}.overview-top .core-values{min-height:100%}.overview-top .values-grid{gap:8px}.overview-top .value-tile{padding:10px 6px;font-size:.82rem}@media(max-width:760px){.team-roles{gap:6px 8px}.team-roles span{font-size:.8rem}}@media(max-width:760px){.overview-top{grid-template-columns:1fr 1fr;gap:9px}.overview-top .core-values{padding:9px}.overview-top .values-grid{gap:5px}.overview-top .value-tile{font-size:.7rem;padding:7px 3px}}
 @media(max-width:480px){.overview-top{grid-template-columns:1fr;grid-template-areas:"team" "values" "season" "kit"}}
 footer{background:var(--navy);color:#dfe6f2;text-align:center;padding:20px;font-size:.9rem}footer strong{color:white}
 @media(max-width:760px){.top-inner{flex-wrap:wrap}.team-title{width:100%;text-align:left;margin-left:82px}.lesson-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.home-grid{grid-template-columns:1fr}.fact.wide{grid-column:auto}}
@@ -33,7 +33,7 @@ footer{background:var(--navy);color:#dfe6f2;text-align:center;padding:20px;font-
 <main>
 <section class="section" id="home"><h2>Team overview</h2><p class="lead">General information about our team and regional event.</p><div class="home-grid">
 <div class="overview-top">
-  <div class="fact overview-team"><span class="label">Team name</span><strong>St. George RoboKnights</strong></div>
+  <div class="fact overview-team"><span class="label">Team name</span><strong>St. George RoboKnights</strong><div class="team-roles"><div><span>Klara and Eliana</span><b>Specialists</b></div><div><span>James and Liam</span><b>Operators</b></div><div><span>Owen Mir Alaz</span><b>Driver</b></div><div><span>Jesco</span><b>Technician</b></div></div></div>
   <div class="core-values"><h3>Our Core Values</h3><p>We learn, work and compete by putting these six Core Values into practice.</p><div class="values-grid"><div class="value-tile discovery">Discovery</div><div class="value-tile innovation">Innovation</div><div class="value-tile impact">Impact</div><div class="value-tile inclusion">Inclusion</div><div class="value-tile teamwork">Teamwork</div><div class="value-tile fun">Fun</div></div></div>
   <div class="fact overview-season"><span class="label">Season</span><strong>BIOGLOW · 2026–27</strong></div>
   <div class="fact overview-kit"><span class="label">LEGO kit used</span><strong>LEGO Education Computer Science &amp; AI Set 45521 · 8+</strong></div>
