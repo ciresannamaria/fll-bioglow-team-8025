@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="RoboKnights team emblem">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0E204A"/><stop offset="1" stop-color="#004681"/></linearGradient></defs>
+<path d="M120 9 216 45v78c0 55-39 91-96 108-57-17-96-53-96-108V45z" fill="url(#g)" stroke="#B28B5D" stroke-width="7"/>
+<path d="M120 27 198 56v67c0 44-29 74-78 91-49-17-78-47-78-91V56z" fill="none" stroke="#fff" stroke-width="2.5" opacity=".9"/>
+<path d="M64 84h112l-9-22h-94z" fill="#B28B5D"/>
+<path d="M75 61v-13h17v13m18 0V48h17v13m18 0V48h17v13" fill="none" stroke="#0E204A" stroke-width="7" stroke-linecap="square"/>
+<rect x="83" y="91" width="74" height="57" rx="12" fill="#fff" stroke="#B28B5D" stroke-width="4"/>
+<rect x="96" y="103" width="48" height="31" rx="8" fill="#0E204A"/>
+<circle cx="108" cy="118" r="5" fill="#8CCB62"/><circle cx="132" cy="118" r="5" fill="#8CCB62"/>
+<path d="M108 141h24m-12 8v10m-22 0h44" stroke="#B28B5D" stroke-width="5" stroke-linecap="round"/>
+<path d="M55 177c20-16 35-16 50 0m30 0c15-16 30-16 50 0" fill="none" stroke="#8CCB62" stroke-width="7" stroke-linecap="round"/>
+<path d="M120 168c-10-12-26-9-26 3 0 9 13 17 26 24 13-7 26-15 26-24 0-12-16-15-26-3z" fill="#8CCB62"/>
+</svg>
