@@ -1,57 +1,50 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#173b32">
-  <title>FLL BIOGLOW · Team 8025</title>
-  <style>
-    :root{--forest:#173b32;--leaf:#2f6b50;--mint:#e8f1e9;--cream:#fbfaf5;--ink:#24312b;--muted:#64736b;--line:#dce5dc;--gold:#e8bd62}
-    *{box-sizing:border-box} body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
-    header{background:var(--forest);color:white;padding:22px max(22px,calc((100% - 1050px)/2)) 22px;display:flex;align-items:center;justify-content:space-between;gap:24px}\n    .heading-copy{min-width:0}.team-brand{background:#fff;color:#0E204A;border:2px solid #B28B5D;border-radius:12px;padding:12px 18px;text-align:right;min-width:265px;box-shadow:0 3px 12px #0002}.team-brand strong{display:block;font-family:Georgia,serif;font-size:1.2rem;letter-spacing:.02em}.team-brand span{display:block;font-size:.78rem;font-weight:700;letter-spacing:.08em;margin-top:3px}.team-brand small{display:block;color:#B28B5D;font-weight:700;letter-spacing:.14em;margin-top:3px}
-    .eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#c9dfce;font-weight:700}
-    h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.05;margin:10px 0}
-    header p{margin:0;color:#e0ebe2;max-width:620px}
-    main{max-width:1050px;margin:28px auto;padding:0 20px 50px}
-    .overview{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 26px}
-    .stat,.card{background:white;border:1px solid var(--line);border-radius:16px}
-    .stat{padding:15px 17px}.stat strong{display:block;font-size:1.45rem;color:var(--forest)}.stat span{font-size:.88rem;color:var(--muted)}
-    h2{font-size:1.35rem;margin:24px 0 5px}.intro{color:var(--muted);margin:0 0 16px}
-    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
-    .card{padding:19px;display:flex;flex-direction:column;min-height:180px}
-    .card .icon{font-size:1.7rem}.card h3{margin:8px 0 4px;font-size:1.1rem}.card p{margin:0 0 16px;color:var(--muted);font-size:.94rem;flex:1}
-    a.button{display:inline-flex;justify-content:center;align-items:center;text-decoration:none;background:var(--leaf);color:#fff;border-radius:10px;padding:10px 14px;font-weight:650;min-height:42px}
-    a.button:hover{background:var(--forest)}
-    .note{background:var(--mint);border-radius:14px;padding:16px 18px;margin-top:20px}
-    .note strong{color:var(--forest)} footer{text-align:center;padding:22px;color:var(--muted);font-size:.85rem}
-    @media(max-width:650px){.overview{grid-template-columns:1fr}.grid{grid-template-columns:1fr}header{padding-top:24px;flex-direction:column;align-items:flex-start}.team-brand{width:100%;text-align:left}}
-  </style>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#0E204A">
+<title>St. George RoboKnights · BIOGLOW Team Hub</title>
+<style>
+:root{--navy:#0E204A;--blue:#004681;--gold:#B28B5D;--green:#4c8a45;--leaf:#8fbd58;--ink:#172746;--muted:#65728a;--paper:#f5f7fa;--line:#e1e6ee;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.5 "Source Sans Pro",Calibri,Arial,sans-serif}
+.top{background:#fff;border-bottom:1px solid var(--line)}.top-inner{max-width:1240px;margin:auto;padding:18px 26px;display:flex;align-items:center;gap:18px}
+.logo{width:76px;height:76px;flex:none}.brand{min-width:0}.brand h1{font:700 clamp(1.5rem,3vw,2.35rem)/1.05 Georgia,serif;color:var(--navy);margin:0}.brand p{margin:5px 0 0;color:var(--gold);font:600 .95rem Georgia,serif;letter-spacing:.04em}
+.brand-divider{height:58px;width:2px;background:var(--gold);margin:0 8px}.team-title{margin-left:auto;text-align:right}.team-title strong{display:block;color:var(--navy);font-size:clamp(1.1rem,2.3vw,1.65rem);font-weight:800}.team-title span{display:block;color:var(--blue);font-weight:700;font-size:.94rem}.team-title small{display:block;color:var(--gold);font-weight:800;letter-spacing:.18em;margin-top:3px}
+nav{background:var(--navy);color:#fff;position:sticky;top:0;z-index:5;box-shadow:0 4px 12px #0e204a20}nav .nav-inner{max-width:1240px;margin:auto;display:flex;justify-content:space-between;gap:4px;padding:0 18px;overflow-x:auto}nav a{color:#fff;text-decoration:none;font-weight:700;white-space:nowrap;padding:16px 13px;border-bottom:4px solid transparent;display:flex;gap:8px;align-items:center}nav a:hover,nav a.active{border-color:var(--gold);background:#ffffff12}
+.hero{min-height:270px;background:linear-gradient(90deg,#0e204aeF,#0e204a55),url('https://images.unsplash.com/photo-1516026672322-bc52d61a55d5?auto=format&fit=crop&w=1800&q=85') center 48%/cover;display:flex;align-items:center;color:#fff}.hero-inner{max-width:1240px;width:100%;margin:auto;padding:40px 28px}.eyebrow{text-transform:uppercase;letter-spacing:.22em;color:#f0d7a5;font-size:.83rem;font-weight:800}.hero h2{font:700 clamp(2.4rem,6vw,4.5rem)/1 Georgia,serif;margin:10px 0}.hero p{font-size:1.12rem;margin:0;max-width:570px;color:#f3f5fa}
+main{max-width:1240px;margin:28px auto 60px;padding:0 24px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:12px;margin:0 0 16px}.section-head h2{font:700 1.65rem Georgia,serif;color:var(--navy);margin:0}.section-head p{margin:3px 0 0;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}.card{background:#fff;border:1px solid var(--line);border-radius:17px;padding:22px 20px;min-height:205px;display:flex;flex-direction:column;box-shadow:0 5px 16px #15294a0a;transition:transform .18s,box-shadow .18s}.card:hover{transform:translateY(-3px);box-shadow:0 10px 25px #15294a15}.card-icon{width:54px;height:54px;border-radius:15px;background:#edf2fa;color:var(--blue);display:grid;place-items:center;font-size:1.8rem}.card h3{font:700 1.35rem Georgia,serif;color:var(--navy);margin:14px 0 5px}.card p{margin:0 0 18px;color:var(--muted);flex:1}.card a{color:var(--blue);font-weight:800;text-decoration:none}.card a:hover{text-decoration:underline}
+.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px}.info{background:#fff;border:1px solid var(--line);border-radius:17px;padding:22px}.info h2{font:700 1.35rem Georgia,serif;color:var(--navy);margin:0 0 14px}.hierarchy{display:flex;align-items:center;gap:12px;flex-wrap:wrap}.group,.team{border-radius:12px;padding:13px 16px;min-width:145px}.group{background:#edf1f8;border:1px solid #cbd5e4}.team{background:#f8f0e7;border:1px solid #dfc5a7}.group b,.team b{display:block;font-size:1.3rem;color:var(--navy)}.group span,.team span{font-size:.84rem;color:var(--muted)}.arrow{font-size:1.5rem;color:var(--gold);font-weight:800}.event-date{font-size:1.2rem;font-weight:800;color:var(--navy);margin-bottom:8px}.address{color:var(--muted);margin:0 0 12px}.map-link{display:inline-block;background:var(--navy);color:#fff;text-decoration:none;padding:9px 13px;border-radius:9px;font-weight:700}.map-link:hover{background:var(--blue)}
+footer{background:var(--navy);color:#dfe6f2;text-align:center;padding:22px;font-size:.9rem}footer strong{color:#fff}
+@media(max-width:850px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}.top-inner{flex-wrap:wrap}.team-title{width:100%;text-align:left;margin-left:94px}.brand-divider{display:none}}
+@media(max-width:560px){.top-inner{padding:14px 18px;gap:12px}.logo{width:62px;height:62px}.brand h1{font-size:1.5rem}.brand p{font-size:.82rem}.team-title{margin-left:74px}.cards,.info-grid{grid-template-columns:1fr}.hero{min-height:230px}.hero-inner{padding:30px 22px}nav a{padding:14px 11px;font-size:.9rem}main{padding:0 16px}}
+</style>
 </head>
 <body>
-  <header>
-    <div class="eyebrow">FIRST LEGO League · Future Edition 8+</div>
-    <h1>BIOGLOW Team Hub</h1>
-    <p>One clear place to organise our team, understand the challenge and get ready for competition.</p>
-  </header>
-  <main>
-    <section class="overview" aria-label="Team details">
-      <div class="stat"><strong>8025</strong><span>Team number</span></div>
-      <div class="stat"><strong>27 Feb 2027</strong><span>Regional event</span></div>
-      <div class="stat"><strong>8</strong><span>Team places</span></div>
-    </section>
-
-    <h2>Where shall we start?</h2>
-    <p class="intro">Choose a section. We will add the details gradually, one step at a time.</p>
-    <section class="grid">
-      <article class="card"><div class="icon">👥</div><h3>1. Team</h3><p>Set up the team and keep track of the basic team information.</p><a class="button" href="team.html">Open team</a></article>
-      <article class="card"><div class="icon">🧭</div><h3>2. Roles</h3><p>See the four roles: Driver, Operator, Technician and Specialist.</p><a class="button" href="roles.html">Explore roles</a></article>
-      <article class="card"><div class="icon">✅</div><h3>3. Preparation</h3><p>Use a checklist to see what we have completed and what is next.</p><a class="button" href="preparation.html">Open checklist</a></article>
-      <article class="card"><div class="icon">🤖</div><h3>4. Game missions</h3><p>Keep the BIOGLOW missions and useful rule links together.</p><a class="button" href="missions.html">View missions</a></article>
-      <article class="card"><div class="icon">🌱</div><h3>5. Project</h3><p>Explore the four project pathways and track our project work.</p><a class="button" href="project.html">Open project</a></article>
-      <article class="card"><div class="icon">🏁</div><h3>6. Competition day</h3><p>Collect the practical information and final packing checklist.</p><a class="button" href="competition.html">Get ready</a></article>
-    </section>
-    <div class="note"><strong>Our way of working</strong><br>We do not need to finish everything at once. We will complete one small section, check that it works, and then move to the next one.</div>
-  </main>
-  <footer>BIOGLOW Team Hub · Team 8025 · 2026/27</footer>
-</body>
-</html>
+<header class="top"><div class="top-inner">
+<img class="logo" src="assets/roboknights-emblem.svg" alt="RoboKnights team emblem">
+<div class="brand"><h1>RoboKnights</h1><p>FIRST LEGO League · Future Edition 8+</p></div>
+<div class="brand-divider"></div>
+<div class="team-title"><strong>St. George RoboKnights</strong><span>FIRST LEGO League Team 8025</span><small>BIOGLOW · 2026–27</small></div>
+</div></header>
+<nav aria-label="Main navigation"><div class="nav-inner">
+<a class="active" href="index.html">⌂ Home</a><a href="team.html">♟ Team</a><a href="roles.html">⚙ Roles</a><a href="preparation.html">☑ Preparation</a><a href="missions.html">◎ Missions</a><a href="project.html">♧ Project</a><a href="competition.html">🏆 Competition</a><a href="#location">⌖ Location</a>
+</div></nav>
+<section class="hero"><div class="hero-inner"><div class="eyebrow">FIRST LEGO LEAGUE · BIOGLOW 2026–27</div><h2>Team Dashboard</h2><p>Our journey into rainforest biodiversity, robotics, creativity and teamwork.</p></div></section>
+<main>
+<div class="section-head"><div><h2>Our team workspace</h2><p>Choose a section to get started. We will build each part step by step.</p></div></div>
+<section class="cards" aria-label="Dashboard sections">
+<article class="card"><div class="card-icon">👥</div><h3>Team</h3><p>Our group, team number and participant organisation.</p><a href="team.html">Open team →</a></article>
+<article class="card"><div class="card-icon">🧭</div><h3>Roles</h3><p>Driver, Operator, Technician and Specialist.</p><a href="roles.html">Explore roles →</a></article>
+<article class="card"><div class="card-icon">☑</div><h3>Preparation</h3><p>Equipment, learning sessions and our progress checklist.</p><a href="preparation.html">Open checklist →</a></article>
+<article class="card"><div class="card-icon">🤖</div><h3>Missions</h3><p>BIOGLOW game missions, rules and practice.</p><a href="missions.html">View missions →</a></article>
+<article class="card"><div class="card-icon">🌱</div><h3>Project</h3><p>Our research, ideas and project presentation.</p><a href="project.html">Open project →</a></article>
+<article class="card"><div class="card-icon">🏆</div><h3>Competition</h3><p>Event day, schedule, what to bring and final checks.</p><a href="competition.html">Get ready →</a></article>
+</section>
+<section class="info-grid">
+<article class="info"><h2>Our registration structure</h2><div class="hierarchy"><div class="group"><span>GROUP NUMBER</span><b>7029</b><span>Registered group</span></div><div class="arrow">→</div><div class="team"><span>TEAM NUMBER</span><b>8025</b><span>Our one team in this group</span></div></div><p class="address">One group can contain more than one team. Group 7029 currently has one team: 8025.</p></article>
+<article class="info" id="location"><h2>Competition location</h2><div class="event-date">27 February 2027</div><p class="address"><strong>Siegen-Wittgenstein / Olpe</strong><br>Berufskolleg Wirtschaft und Verwaltung des Kreises Siegen-Wittgenstein<br>Am Stadtwald 27<br>57072 Siegen, Germany</p><a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Berufskolleg+Wirtschaft+und+Verwaltung+des+Kreises+Siegen-Wittgenstein%2C+Am+Stadtwald+27%2C+57072+Siegen" target="_blank" rel="noopener">⌖ Open location in Maps</a></article>
+</section>
+</main>
+<footer><strong>St. George RoboKnights</strong> · FLL Team 8025 · BIOGLOW 2026–27</footer>
+</body></html>
