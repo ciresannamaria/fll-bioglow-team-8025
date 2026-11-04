@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#173b32">
+  <title>FLL BIOGLOW · Team 8025</title>
+  <style>
+    :root{--forest:#173b32;--leaf:#2f6b50;--mint:#e8f1e9;--cream:#fbfaf5;--ink:#24312b;--muted:#64736b;--line:#dce5dc;--gold:#e8bd62}
+    *{box-sizing:border-box} body{margin:0;background:var(--cream);color:var(--ink);font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+    header{background:var(--forest);color:white;padding:30px max(22px,calc((100% - 1050px)/2)) 26px}
+    .eyebrow{font-size:.78rem;letter-spacing:.12em;text-transform:uppercase;color:#c9dfce;font-weight:700}
+    h1{font-size:clamp(2rem,5vw,3.2rem);line-height:1.05;margin:10px 0}
+    header p{margin:0;color:#e0ebe2;max-width:620px}
+    main{max-width:1050px;margin:28px auto;padding:0 20px 50px}
+    .overview{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:0 0 26px}
+    .stat,.card{background:white;border:1px solid var(--line);border-radius:16px}
+    .stat{padding:15px 17px}.stat strong{display:block;font-size:1.45rem;color:var(--forest)}.stat span{font-size:.88rem;color:var(--muted)}
+    h2{font-size:1.35rem;margin:24px 0 5px}.intro{color:var(--muted);margin:0 0 16px}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .card{padding:19px;display:flex;flex-direction:column;min-height:180px}
+    .card .icon{font-size:1.7rem}.card h3{margin:8px 0 4px;font-size:1.1rem}.card p{margin:0 0 16px;color:var(--muted);font-size:.94rem;flex:1}
+    a.button{display:inline-flex;justify-content:center;align-items:center;text-decoration:none;background:var(--leaf);color:#fff;border-radius:10px;padding:10px 14px;font-weight:650;min-height:42px}
+    a.button:hover{background:var(--forest)}
+    .note{background:var(--mint);border-radius:14px;padding:16px 18px;margin-top:20px}
+    .note strong{color:var(--forest)} footer{text-align:center;padding:22px;color:var(--muted);font-size:.85rem}
+    @media(max-width:650px){.overview{grid-template-columns:1fr}.grid{grid-template-columns:1fr}header{padding-top:24px}}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="eyebrow">FIRST LEGO League · Future Edition 8+</div>
+    <h1>BIOGLOW Team Hub</h1>
+    <p>One clear place to organise our team, understand the challenge and get ready for competition.</p>
+  </header>
+  <main>
+    <section class="overview" aria-label="Team details">
+      <div class="stat"><strong>8025</strong><span>Team number</span></div>
+      <div class="stat"><strong>27 Feb 2027</strong><span>Regional event</span></div>
+      <div class="stat"><strong>8</strong><span>Team places</span></div>
+    </section>
+
+    <h2>Where shall we start?</h2>
+    <p class="intro">Choose a section. We will add the details gradually, one step at a time.</p>
+    <section class="grid">
+      <article class="card"><div class="icon">👥</div><h3>1. Team</h3><p>Set up the team and keep track of the basic team information.</p><a class="button" href="team.html">Open team</a></article>
+      <article class="card"><div class="icon">🧭</div><h3>2. Roles</h3><p>See the four roles: Driver, Operator, Technician and Specialist.</p><a class="button" href="roles.html">Explore roles</a></article>
+      <article class="card"><div class="icon">✅</div><h3>3. Preparation</h3><p>Use a checklist to see what we have completed and what is next.</p><a class="button" href="preparation.html">Open checklist</a></article>
+      <article class="card"><div class="icon">🤖</div><h3>4. Game missions</h3><p>Keep the BIOGLOW missions and useful rule links together.</p><a class="button" href="missions.html">View missions</a></article>
+      <article class="card"><div class="icon">🌱</div><h3>5. Project</h3><p>Explore the four project pathways and track our project work.</p><a class="button" href="project.html">Open project</a></article>
+      <article class="card"><div class="icon">🏁</div><h3>6. Competition day</h3><p>Collect the practical information and final packing checklist.</p><a class="button" href="competition.html">Get ready</a></article>
+    </section>
+    <div class="note"><strong>Our way of working</strong><br>We do not need to finish everything at once. We will complete one small section, check that it works, and then move to the next one.</div>
+  </main>
+  <footer>BIOGLOW Team Hub · Team 8025 · 2026/27</footer>
+</body>
+</html>
